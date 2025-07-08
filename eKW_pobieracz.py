@@ -174,7 +174,6 @@ def main():
         level=logging.INFO,
         format='%(asctime)s [%(levelname)s] %(message)s',
         handlers=[
-            logging.FileHandler("ekw_pobieracz.log"),
             logging.StreamHandler()
         ]
     )
